@@ -1,5 +1,7 @@
 import React from 'react'
+import SingleImage from '../components/SingleImage/SingleImage'
 import TitleAndDescription from '../components/TitleAndDescription/TitleAndDescription'
+
 
 export default function Home() {
     return (
@@ -14,6 +16,20 @@ export default function Home() {
                             <TitleAndDescription
                                 title="Built by Ex-Facebook specialists with over $1B in managed spend"
                                 desc="Blkbox is proud to be a leader in AI driven performance marketing and is featured and recognized by the best in the industry." />
+                            <div className='row justify-content-around'>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/meta.png'} />
+                                </div>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/forbes.png'} />
+                                </div>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/yahoo.png'} />
+                                </div>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/market-watch.png'} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
