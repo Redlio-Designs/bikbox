@@ -13,8 +13,7 @@ function App() {
   return (
     <>
       {/* <Home /> */}
-    {/* <PerfomanceAudit/> */}
-    <Skan/>
+      <PerfomanceAudit />
     </>
   );
 }

@@ -10,6 +10,8 @@ import HomeHeroSection from '../components/HomeHeroSection/HomeHeroSection'
 import UnlockWin from '../components/UnlockWin/UnlockWin'
 import Footer from '../components/Footer/Footer'
 import MarketingPlatform from '../components/MarketingPlatform/MarketingPlatform'
+import HomeCarousel from '../components/HomeCarousel/HomeCarousel'
+
 import BackTop from '../components/BackTop/BackTop'
 
 
@@ -18,17 +20,27 @@ import BackTop from '../components/BackTop/BackTop'
 export default function Home() {
     return (
         <>
-       
+
 
             <div className='bg-light-blue'>
                 <div className='container'>
                     <NavigationMenu />
-                    <HomeHeroSection />
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                            <HomeHeroSection />
+                            <div className='w-75 d-block mx-auto'>
+                                <UnlockWin button="Unlock Performance Today - For Free!" />
+                            </div>
+                            <div className='bottom-hero-img text-center'>
+                                <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/home-hero-section-img.png'} className='singleImg' />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div className='container'>
-            <BackTop />
+                <BackTop />
                 {/* section 2 built by fox */}
                 <section className='facebook-specialist'>
                     <div className='row'>
@@ -97,6 +109,8 @@ export default function Home() {
 
                     </div>
                 </section>
+
+                {/* section 6 Marketing Platform */}
                 <section className='marketing-platform'>
                     <div className='row'>
                         <div className='col-lg-12'>
@@ -137,6 +151,16 @@ export default function Home() {
                     </div>
                 </section>
 
+            </div>
+            {/* section 7 Carousel */}
+            <section className='home-carousel-section'>
+                <div className='container'>
+                    <h2 className='fz-48 fw-700 text-center pb-5'>Our Customers Love Us</h2>
+                    <HomeCarousel />
+                </div>
+
+            </section>
+            <div className='container'>
                 <section className='unlock-win'>
                     <div className='row'>
                         <div className='col-lg-12'>

@@ -17,7 +17,7 @@ export default function PerfomanceAudit() {
         <>
 
 
-            <div className='bg-light-blue perfomance-audit'>
+            <div className='perfomance-audit'>
                 <div className='container'>
                     <NavigationMenu />
                     <BackTop />
@@ -33,7 +33,7 @@ export default function PerfomanceAudit() {
                     </div>
                 </div>
             </div>
-                <div className="container">
+            <div className="container">
                 <section className='geographic'>
                     <div className='row'>
                         <div className='col-lg-6 align-self-center geo-text'>
@@ -48,10 +48,10 @@ export default function PerfomanceAudit() {
 
                 <section className='optimize-budget'>
                     <div className='row'>
-                    <div className='col-lg-6'>
+                        <div className='col-lg-6'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/optimize.png'} />
                         </div>
-                       <div className='col-lg-6 align-self-center opti-text'>
+                        <div className='col-lg-6 align-self-center opti-text'>
                             <SemiTitleWithDescription title="Optimization, Bidding, and Budgeting Audit" desc="Align your ad spend to the best opportunities with detailed chart views. Get account-specific recommendations around MAI vs AEO vs VO, Autobid vs Bid Cap vs Cost Cap vs MinRoas." />
                         </div>
                     </div>
@@ -68,10 +68,10 @@ export default function PerfomanceAudit() {
                 </section>
                 <section className='creative-spec'>
                     <div className='row'>
-                    <div className='col-lg-6'>
+                        <div className='col-lg-6'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/creative-spec.png'} />
                         </div>
-                       <div className='col-lg-6 align-self-center cre-text'>
+                        <div className='col-lg-6 align-self-center cre-text'>
                             <SemiTitleWithDescription title="Creative Spec & Dimension Audit" desc="Gain insights into your top performing creative types and dimensions. Whether it’s an image or a video, in portrait or landscape, BLKBOX identifies what creatives are working best for your ad account." />
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export default function PerfomanceAudit() {
                     </div>
                 </section>
             </div><Footer />
-         
+
         </>
     )
 }
