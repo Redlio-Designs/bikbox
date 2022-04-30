@@ -132,6 +132,8 @@ a {
 /* ************************************************ Perfomance Audit Page *************************************************** */
 .perfomance-audit{
     padding-bottom: 77px;
+    height: 100%;
+    background: #F0F7FF;
 }
 .geographic {
 	padding: 108px 0 88px;
