@@ -1,0 +1,17 @@
+.perfomance-marketing span{
+    background: linear-gradient(93.77deg, #26D0F5 -26.68%, #2682F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+.perfomance-marketing h1 {
+	color: #333B4B;
+	padding-bottom: 13px;
+}
+.perfomance-marketing p {
+	line-height: 1.5;
+	padding-right: 150px;
+	padding-bottom: 45px;
+}

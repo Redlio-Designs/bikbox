@@ -5,12 +5,16 @@ import $ from 'jquery';
 
 import "./style.css"
 import Home from "./pages/Home";
+import PerfomanceAudit from "./pages/PerfomanceAudit";
+import Skan from "./pages/Skan";
 
 
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
+    {/* <PerfomanceAudit/> */}
+    <Skan/>
     </>
   );
 }
