@@ -15,7 +15,10 @@ a {
     font-family: 'Inter';
     color: #212B36;
     font-weight: 400;
-    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .color-grey {
@@ -40,6 +43,10 @@ a {
 
 .fz-34 {
     font-size: 34px;
+}
+
+.fz-23 {
+    font-size: 23px;
 }
 
 .fz-22 {
@@ -174,7 +181,8 @@ a {
 .geographic img,
 .optimize-budget img,
 .creative-spec img,
-.opti-text img {
+.opti-text img,
+.audience-audit img {
     filter: drop-shadow(0px 4px 4px rgba(37, 58, 82, 0.04)) drop-shadow(0px 5px 59px rgba(37, 58, 82, 0.09));
 }
 
@@ -201,6 +209,40 @@ a {
 }
 
 /* ************************************************ Perfomance Audit Page *************************************************** */
+
+/* ************************************************ Enterprise Landing Page *************************************************** */
+.enterprise-quote-box {
+    padding: 80px 0;
+}
+
+.casestudy-section {
+    background: #F0F7FF;
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+.casestudy-section h2 {
+    padding-bottom: 40px;
+    display: inline-block;
+
+}
+
+.casestudy-section .external-link {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+
+
+
+
+/* ************************************************ Enterprise Landing Page *************************************************** */
+.tick-img {
+    width: 28px;
+    height: auto;
+    filter: none;
+}
 
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {

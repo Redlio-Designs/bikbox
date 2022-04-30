@@ -7,13 +7,18 @@ import "./style.css"
 import Home from "./pages/Home";
 import PerfomanceAudit from "./pages/PerfomanceAudit";
 import Skan from "./pages/Skan";
+import EnterpriseLanding from "./pages/EnterpriseLanding";
+import CreativeTesting from "./pages/CreativeTesting";
+
 
 
 function App() {
   return (
     <>
       {/* <Home /> */}
-      <PerfomanceAudit />
+      {/* <PerfomanceAudit /> */}
+      <EnterpriseLanding />
+      {/* <CreativeTesting /> */}
     </>
   );
 }
