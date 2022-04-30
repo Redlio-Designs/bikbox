@@ -10,6 +10,7 @@ import HomeHeroSection from '../components/HomeHeroSection/HomeHeroSection'
 import UnlockWin from '../components/UnlockWin/UnlockWin'
 import Footer from '../components/Footer/Footer'
 import MarketingPlatform from '../components/MarketingPlatform/MarketingPlatform'
+import BackTop from '../components/BackTop/BackTop'
 
 
 // components end
@@ -17,6 +18,8 @@ import MarketingPlatform from '../components/MarketingPlatform/MarketingPlatform
 export default function Home() {
     return (
         <>
+       
+
             <div className='bg-light-blue'>
                 <div className='container'>
                     <NavigationMenu />
@@ -25,6 +28,7 @@ export default function Home() {
             </div>
 
             <div className='container'>
+            <BackTop />
                 {/* section 2 built by fox */}
                 <section className='facebook-specialist'>
                     <div className='row'>
