@@ -21,4 +21,8 @@ box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
 }
 .business-data {
 	margin-bottom: 110px;
+	margin-right: 30px;
+}
+.business-data:nth-child(3){
+    margin-right: 0;
 }

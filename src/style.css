@@ -91,10 +91,11 @@ a {
     color: #fff;
     font-weight: 600;
     font-size: 18px;
-    padding: 10px 33px;
+    padding: 13px 33px;
     border-radius: 8px;
     transition: 0.3s all;
     border: 1px solid #2682F5;
+    box-shadow: 0px 1.42057px 2.84114px rgba(38, 130, 245, 0.14), 0px 2.84114px 5.68229px rgba(38, 130, 245, 0.16);
 }
 
 .btn-theme:hover {
