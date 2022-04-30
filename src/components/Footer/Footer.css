@@ -1,0 +1,24 @@
+footer{
+    border-top:1px solid rgb(145, 158, 171, 0.24);
+    padding-top: 80px;
+}
+.footer-text p {
+	line-height: 24px;
+	padding: 24px 40px 22px 0;
+}
+.page-list a{
+    text-decoration: none;
+}
+.page-list li{
+    padding-bottom: 20px;
+}
+.page-list {
+	padding: 84px 70px 0;
+}
+.bottom-links a{
+    text-decoration: none;
+    padding-left: 24px;
+}
+.footer-bottom {
+	padding-top: 50px;
+}

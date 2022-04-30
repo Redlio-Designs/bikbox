@@ -1,0 +1,24 @@
+.m-box {
+	background: #FFFFFF;
+	box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
+	border-radius: 16px;
+	padding: 66px 54px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+.m-box:hover {
+transform: scale(104%);
+box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+}
+.m-box h4{
+    padding-bottom: 23px;
+}
+.m-box p{
+    line-height: 29.5px;
+}
+.m-box img{
+    padding-bottom: 40px;
+}
+.business-data {
+	margin-bottom: 110px;
+}
