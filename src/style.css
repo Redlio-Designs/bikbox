@@ -106,7 +106,10 @@ a {
     background-color: #fff;
     color: #2682F5;
 }
-
+.react-multiple-carousel__arrow--right::before{
+    content:"";
+    background-image:url("../public/images/home/right-arrow.svg");
+}
 .bg-light-blue {
     background-color: #F0F7FF;
     position: relative;
