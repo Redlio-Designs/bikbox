@@ -3,5 +3,7 @@
 }
 
 .desc {
-    padding-bottom: 45px;
+	padding-bottom: 45px;
+	width: 480px;
+	line-height: 35px;
 }

@@ -7,7 +7,7 @@
     padding-left: 18px;
 }
 
-.unlock-win button {
+.unlock-form button {
     position: absolute;
     top: 0;
     right: 0;
@@ -19,7 +19,7 @@
 
 }
 
-.unlock-win button:hover {
+.unlock-form button:hover {
     color: #2682F5;
     background-color: #fff;
 }

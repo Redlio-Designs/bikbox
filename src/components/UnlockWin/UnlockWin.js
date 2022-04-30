@@ -6,7 +6,7 @@ import './UnlockWin.css'
 export default function UnlockWin(props) {
   return (
    <>
-    <Form>
+    <Form className="unlock-form">
   <Form.Group className="emailinput" controlId="formBasicEmail">
     <Form.Control type="email" placeholder="Enter your company email" class="fz-16 fw-500 color-grey form-control" />
   </Form.Group>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import ThemeButton from "../ThemeButton/ThemeButton.js"
 
 export default function Footer() {
   return (
@@ -30,7 +31,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='col-lg-3'>
-
+                   <div className='book-demo'>
+                    <ThemeButton text="Book a Demo"/>
+                    </div>
                 </div>
             </div>
             <div className='footer-bottom'>
