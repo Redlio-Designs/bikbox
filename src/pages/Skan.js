@@ -8,6 +8,8 @@ import UnlockWin from '../components/UnlockWin/UnlockWin'
 import Footer from '../components/Footer/Footer'
 import BackTop from '../components/BackTop/BackTop'
 import PerfomanceMarketing from '../components/PerfomanceMarketing/PerfomanceMarketing'
+import CaseStudyCarousel from '../components/CaseStudyCarousel/CaseStudyCarousel'
+
 
 
 // components end
@@ -33,7 +35,7 @@ export default function Skan() {
                     </div>
                 </div>
             </div>
-                <div className="container">
+            <div className="container">
                 <section className='geographic'>
                     <div className='row'>
                         <div className='col-lg-6 align-self-center geo-text'>
@@ -48,18 +50,25 @@ export default function Skan() {
 
                 <section className='optimize-budget'>
                     <div className='row'>
-                    <div className='col-lg-6'>
+                        <div className='col-lg-6'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/scaled-marketing.png'} />
                         </div>
-                       <div className='col-lg-6 align-self-center opti-text'>
+                        <div className='col-lg-6 align-self-center opti-text'>
                             <SemiTitleWithDescription title="Implement the Optimal SKAN Schema Across Facebook" desc="We identify the right events and purchase ranges, and implement the Schema on your MMP. This will, in turn impact marketing spend across all platforms." />
                         </div>
                     </div>
                 </section>
 
+            </div>
 
-
-
+            <section className='casestudy-section'>
+                <div className='container'>
+                    <h2 className='fw-700 fz-48'>Case studies</h2>
+                    <a href='#' className='fz-24 fw-600 external-link float-right text-primary'>View all</a>
+                    <CaseStudyCarousel />
+                </div>
+            </section>
+            <div className='container'>
                 <section className='unlock-win'>
                     <div className='row'>
                         <div className='col-lg-12'>
@@ -74,7 +83,7 @@ export default function Skan() {
                     </div>
                 </section>
             </div><Footer />
-         
+
         </>
     )
 }

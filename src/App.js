@@ -7,9 +7,8 @@ import "./style.css"
 import Home from "./pages/Home";
 import PerfomanceAudit from "./pages/PerfomanceAudit";
 import Skan from "./pages/Skan";
-import EnterpriseLanding from "./pages/EnterpriseLanding";
+import EnterprigitseLanding from "./pages/EnterpriseLanding";
 import CreativeTesting from "./pages/CreativeTesting";
-
 
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
     <>
       {/* <Home /> */}
       {/* <PerfomanceAudit /> */}
-      <EnterpriseLanding />
+      <Skan />
       {/* <CreativeTesting /> */}
     </>
   );
