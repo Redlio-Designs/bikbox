@@ -1,28 +1,35 @@
-footer{
-    border-top:1px solid rgb(145, 158, 171, 0.24);
+footer {
+    border-top: 1px solid rgb(145, 158, 171, 0.24);
     padding-top: 80px;
 }
+
 .footer-text p {
-	line-height: 24px;
-	padding: 24px 40px 22px 0;
+    line-height: 24px;
+    padding: 24px 40px 22px 0;
 }
-.page-list a{
+
+.page-list a {
     text-decoration: none;
 }
-.page-list li{
+
+.page-list li {
     padding-bottom: 20px;
 }
+
 .page-list {
-	padding: 84px 70px 0;
+    padding: 84px 57px 0;
 }
-.bottom-links a{
+
+.bottom-links a {
     text-decoration: none;
     padding-left: 24px;
 }
+
 .footer-bottom {
-	padding-top: 50px;
-    padding-bottom:22px;
+    padding-top: 50px;
+    padding-bottom: 22px;
 }
+
 .book-demo {
-	margin-top: 84px;
+    margin-top: 84px;
 }

@@ -8,13 +8,12 @@ import UnlockWin from '../components/UnlockWin/UnlockWin'
 import Footer from '../components/Footer/Footer'
 import BackTop from '../components/BackTop/BackTop'
 import PerfomanceMarketing from '../components/PerfomanceMarketing/PerfomanceMarketing'
+import EnterpriseQuote from '../components/EnterpriseQuote/EnterpriseQuote'
 import CaseStudyCarousel from '../components/CaseStudyCarousel/CaseStudyCarousel'
 
 
 
-// components end
-
-export default function PerfomanceAudit() {
+export default function EnterpriseLanding() {
     return (
         <>
             <div className='perfomance-audit'>
@@ -23,24 +22,28 @@ export default function PerfomanceAudit() {
                     <BackTop />
                     <div className='row'>
                         <div className='col-lg-6 align-self-center'>
-                            <PerfomanceMarketing title="Unleash your Performance" gtext="Marketing"
-                                description="No spreadsheets, no clutter. On-target performance. Push your marketing spend efficiency by 50% with our 360 degree Performance Audit." />
+                            <PerfomanceMarketing title="Performance Marketing, Built for" gtext="Enterprise Advertisers"
+                                description="Leverage Facebook expertise to scale your ad spend profitably." />
                             <UnlockWin button="Unlock Winning Creatives Today" />
                         </div>
                         <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/marketing.png'} />
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/EnterpriseLanding/landing-hero.png'} />
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container">
+                <section className='quote-for-enterprise'>
+                    <EnterpriseQuote />
+                </section>
                 <section className='geographic'>
                     <div className='row'>
                         <div className='col-lg-6 align-self-center geo-text'>
-                            <SemiTitleWithDescription title="Geographical Performance Audit" desc="Audit your ads delivery by country/region. BLKBOX highlights countries and regions that are above and below your target. Identify untapped geographical opportunities, improve universal performance, and maximize creative success." />
+                            <SemiTitleWithDescription title="Creative Science"
+                                desc="Creatives drive performance. Using advanced computer vision, and predictive models, we can share why an ad becomes a winner, while others fail. Combined with our inside knowledge of the Facebook Ads Auction, you have a winning combination that can scale your ad spend profitably!" />
                         </div>
                         <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/geographical.png'} />
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/EnterpriseLanding/landing-section-2.png'} />
 
                         </div>
                     </div>
@@ -49,34 +52,26 @@ export default function PerfomanceAudit() {
                 <section className='optimize-budget'>
                     <div className='row'>
                         <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/optimize.png'} />
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/EnterpriseLanding/landing-section-3.png'} />
                         </div>
                         <div className='col-lg-6 align-self-center opti-text'>
-                            <SemiTitleWithDescription title="Optimization, Bidding, and Budgeting Audit" desc="Align your ad spend to the best opportunities with detailed chart views. Get account-specific recommendations around MAI vs AEO vs VO, Autobid vs Bid Cap vs Cost Cap vs MinRoas." />
+                            <SemiTitleWithDescription title="Advanced Media Planning"
+                                desc="Facebook is complex, time consuming, and there's a lot to test. Having managed more than $1B in ad spend across the biggest advertisers on Facebook, we produce sophisticated campaign strategies designed to hit your KPIs. This team was responsible for growing a partner to being the 5th largest on Facebook in Q1 2020." />
                         </div>
                     </div>
                 </section>
                 <section className='audience-audit'>
                     <div className='row'>
                         <div className='col-lg-6 align-self-center audi-text'>
-                            <SemiTitleWithDescription title="Audience Audit" desc="Identify audiences that produce the best results across different timeframes and regions. BLKBOX provides a detailed audit across each of your seed lists, enabling you to scale your SDK based audiences or custom audiences." />
+                            <SemiTitleWithDescription title="Technical Growth Ambassadors" desc="Get the Facebook expertise to drive business growth across media buying, signal & audits, and the inner workings of the Facebook Ads Auction to unlock low-hanging ROAS opportunities for scaled performance!" />
                         </div>
                         <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/audience-audit.png'} />
-                        </div>
-                    </div>
-                </section>
-                <section className='creative-spec'>
-                    <div className='row'>
-                        <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/creative-spec.png'} />
-                        </div>
-                        <div className='col-lg-6 align-self-center cre-text'>
-                            <SemiTitleWithDescription title="Creative Spec & Dimension Audit" desc="Gain insights into your top performing creative types and dimensions. Whether it’s an image or a video, in portrait or landscape, BLKBOX identifies what creatives are working best for your ad account." />
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/EnterpriseLanding/landing-section-3.png'} />
                         </div>
                     </div>
                 </section>
             </div>
+
 
             <section className='casestudy-section'>
                 <div className='container'>
@@ -85,6 +80,7 @@ export default function PerfomanceAudit() {
                     <CaseStudyCarousel />
                 </div>
             </section>
+
             <div className='container'>
                 <section className='unlock-win'>
                     <div className='row'>
@@ -101,7 +97,6 @@ export default function PerfomanceAudit() {
                 </section>
             </div>
             <Footer />
-
         </>
     )
 }

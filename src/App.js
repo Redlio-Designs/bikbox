@@ -8,6 +8,8 @@ import $ from 'jquery';
 import Home from "./pages/Home";
 import PerfomanceAudit from "./pages/PerfomanceAudit";
 import Skan from "./pages/Skan";
+import EnterprigitseLanding from "./pages/EnterpriseLanding";
+import CreativeTesting from "./pages/CreativeTesting";
 
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
     <>
       <Home />
       {/* <PerfomanceAudit /> */}
-      {/* <Skan/> */}
+      {/* <Skan /> */}
+      {/* <CreativeTesting /> */}
     </>
   );
 }
