@@ -15,6 +15,7 @@ a {
     font-family: 'Inter';
     color: #212B36;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 .color-grey {
@@ -110,6 +111,12 @@ a {
 .facebook-specialist {
     padding: 80px 0;
     margin-bottom: 35px;
+}
+.unlock-win {
+	background: #F0F7FF;
+	border-radius: 12px;
+	padding: 70px 0;
+    margin-bottom: 85px;
 }
 
 .home-our-products {
