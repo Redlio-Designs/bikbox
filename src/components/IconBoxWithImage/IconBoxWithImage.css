@@ -1,0 +1,12 @@
+.icon-box {
+    border: 1.2px solid #D3E8FF;
+    box-sizing: border-box;
+    border-radius: 13.2px;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+
+.icon-box img {
+    margin: 10px auto;
+}
