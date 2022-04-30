@@ -21,6 +21,7 @@ export default function Home() {
                 <div className='container'>
                     <NavigationMenu />
                     <HomeHeroSection />
+                    <UnlockWin button="Unlock Performance Today - For Free!" />
                 </div>
             </div>
 
