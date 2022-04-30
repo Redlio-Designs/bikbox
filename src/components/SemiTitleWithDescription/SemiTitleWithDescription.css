@@ -1,4 +1,7 @@
-.sub-heading,
-.desc {
+.sub-heading {
     padding-bottom: 20px;
+}
+
+.desc {
+    padding-bottom: 45px;
 }

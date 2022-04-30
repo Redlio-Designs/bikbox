@@ -6,6 +6,10 @@ import SemiTitleWithDescription from '../components/SemiTitleWithDescription/Sem
 import TitleAndDescription from '../components/TitleAndDescription/TitleAndDescription'
 import ThemeButton from '../components/ThemeButton/ThemeButton'
 import IconBoxWithImage from '../components/IconBoxWithImage/IconBoxWithImage'
+import NavigationMenu from '../components/NavigationMenu/NavigationMenu'
+import HomeHeroSection from '../components/HomeHeroSection/HomeHeroSection'
+
+
 
 
 // components end
@@ -13,9 +17,14 @@ import IconBoxWithImage from '../components/IconBoxWithImage/IconBoxWithImage'
 export default function Home() {
     return (
         <>
+            <div className='bg-light-blue'>
+                <div className='container'>
+                    <NavigationMenu />
+                    <HomeHeroSection />
+                </div>
+            </div>
 
             <div className='container'>
-
                 {/* section 2 built by fox */}
                 <section className='facebook-specialist'>
                     <div className='row'>
@@ -84,7 +93,6 @@ export default function Home() {
 
                     </div>
                 </section>
-
 
             </div>
         </>

@@ -1,0 +1,21 @@
+.home-hero-section {
+    padding: 25px 0;
+}
+
+.home-hero-section h1 {
+    padding-bottom: 34px;
+}
+
+.home-hero-section .text-blue {
+    background: linear-gradient(93.77deg, #26D0F5 -26.68%, #2682F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.home-hero-section SingleImage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 240px;
+}
