@@ -1,14 +1,39 @@
 import React from 'react'
-import FindWinnigCreative from '../component/FindWinningCreative/FindWinnigCreative'
-import "../../public/images/creative.svg"
-export default function home() {
-  return (
-    <>
-    <FindWinnigCreative
-     heading="Find Winning Creatives" 
-    description="Discover the best colors, compositions, keywords, objects, and more. Get high-quality insights by audience, product and many more!"
-    // image="<img src={process.env.PUBLIC_URL + '../images/creative.svg'} alt='time ' ></img>"
-    />
-    </>
-  )
+import SingleImage from '../components/SingleImage/SingleImage'
+import TitleAndDescription from '../components/TitleAndDescription/TitleAndDescription'
+
+
+export default function Home() {
+    return (
+        <>
+
+            <div className='container'>
+
+                {/* section 2 built by fox */}
+                <section className='facebook-specialist'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                            <TitleAndDescription
+                                title="Built by Ex-Facebook specialists with over $1B in managed spend"
+                                desc="Blkbox is proud to be a leader in AI driven performance marketing and is featured and recognized by the best in the industry." />
+                            <div className='row justify-content-around'>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/meta.png'} />
+                                </div>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/forbes.png'} />
+                                </div>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/yahoo.png'} />
+                                </div>
+                                <div className='col-lg-3'>
+                                    <SingleImage imgPath={process.env.PUBLIC_URL, '/images/home/market-watch.png'} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </>
+    )
 }
