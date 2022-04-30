@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import ThemeButton from "../ThemeButton/ThemeButton.js"
+import BackTop from '../BackTop/BackTop'
 
 export default function Footer() {
   return (
@@ -30,9 +31,10 @@ export default function Footer() {
                     <img src={process.env.PUBLIC_URL + '/images/home/mail.svg'} /> <a class="fz-15" href="mailto:Sales@BLKBOX.ai">Sales@BLKBOX.ai</a>
                     </div>
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 text-end'>
                    <div className='book-demo'>
                     <ThemeButton text="Book a Demo"/>
+                 {/* <BackTop /> */}
                     </div>
                 </div>
             </div>

@@ -12,6 +12,7 @@ import Footer from '../components/Footer/Footer'
 import MarketingPlatform from '../components/MarketingPlatform/MarketingPlatform'
 import HomeCarousel from '../components/HomeCarousel/HomeCarousel'
 
+import BackTop from '../components/BackTop/BackTop'
 
 
 // components end
@@ -19,6 +20,8 @@ import HomeCarousel from '../components/HomeCarousel/HomeCarousel'
 export default function Home() {
     return (
         <>
+
+
             <div className='bg-light-blue'>
                 <div className='container'>
                     <NavigationMenu />
@@ -37,6 +40,7 @@ export default function Home() {
             </div>
 
             <div className='container'>
+                <BackTop />
                 {/* section 2 built by fox */}
                 <section className='facebook-specialist'>
                     <div className='row'>

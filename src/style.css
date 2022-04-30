@@ -29,7 +29,9 @@ a {
 .fz-48 {
     font-size: 48px;
 }
-
+.fz-42{
+    font-size: 42px;
+}
 .fz-36 {
     font-size: 36px;
 }
@@ -102,8 +104,6 @@ a {
     background-color: #fff;
     color: #2682F5;
 }
-
-/* ************************************************ Home Page *************************************************** */
 .bg-light-blue {
     background-color: #F0F7FF;
     position: relative;
@@ -133,7 +133,7 @@ a {
     margin: 0 auto;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
+/* ************************************************ Home Page *************************************************** */
 .facebook-specialist {
     padding: 80px 0;
     margin-bottom: 35px;
@@ -153,6 +153,34 @@ a {
 .facebook-specialist img {
     width: 200px;
 }
+/* ************************************************ Home Page *************************************************** */
+
+/* ************************************************ Perfomance Audit Page *************************************************** */
+.perfomance-audit{
+    padding-bottom: 77px;
+}
+.geographic {
+	padding: 108px 0 88px;
+}
+.geographic img, .optimize-budget img, .creative-spec img, .opti-text img{
+    filter: drop-shadow(0px 4px 4px rgba(37, 58, 82, 0.04)) drop-shadow(0px 5px 59px rgba(37, 58, 82, 0.09));
+}
+.geographic h2, .creative-spec h2 {
+	width: 335px;
+	line-height: 1.5;
+}
+.optimize-budget h2{
+    width: 540px;
+    line-height: 1.5;
+}
+.optimize-budget, .creative-spec, .audience-audit{
+padding-bottom: 88px;
+}
+.cre-text, .opti-text{
+    padding-left: 50px;
+}
+/* ************************************************ Perfomance Audit Page *************************************************** */
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .container {
