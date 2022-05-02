@@ -29,7 +29,7 @@ export default function PerfomanceAudit() {
                         </div>
                         <div className='col-lg-6'>
                             <div className='landing-hero'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/marketing.png'} />
+                                <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/marketing.png'} className='performance-hero' />
                             </div>
                         </div>
                     </div>

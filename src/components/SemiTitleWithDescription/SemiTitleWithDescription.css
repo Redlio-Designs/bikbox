@@ -1,5 +1,5 @@
 .sub-heading {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .desc {
@@ -7,28 +7,35 @@
 	width: 480px;
 	line-height: 35px;
 }
+
 .test-point {
 	margin-bottom: 16px;
 }
+
 .creative-point {
 	padding-top: 20px;
 }
-@media only screen and (min-width:768px) and (max-width:1199px){
-.test-point img{
-	width: 20px;
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+	.test-point img {
+		width: 20px;
+	}
+
+	.desc {
+		padding-bottom: 20px;
+		width: 100%;
+		line-height: 1.5;
+	}
+
+	.sub-heading {
+		padding-bottom: 10px;
+	}
 }
-.desc {
-	padding-bottom: 20px;
-	width: 100%;
-	line-height: 1.5;
-}
-.sub-heading {
-	padding-bottom: 10px;
-}
-}
-@media only screen and (min-width:320px) and (max-width:767px){
-	.desc{
-		width:100%;
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.desc {
+		width: 100%;
 		padding-bottom: 28px;
+		line-height: 31px;
 	}
 }
