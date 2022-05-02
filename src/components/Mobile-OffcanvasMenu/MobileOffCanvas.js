@@ -14,9 +14,6 @@ export default function MobileOffCanvas() {
                 <img src={process.env.PUBLIC_URL + './images/logo.png'} />
                 <img src={process.env.PUBLIC_URL + './images/home/humburger.svg'} onClick={handleShow} />
             </div>
-            <Button variant="primary" onClick={handleShow}>
-                Launch
-            </Button>
 
 
             <Offcanvas show={show} onHide={handleClose} className="mobile-offcanvas">

@@ -4,7 +4,8 @@ import ThemeButton from '../ThemeButton/ThemeButton'
 import MobileOffCanvas from '../Mobile-OffcanvasMenu/MobileOffCanvas'
 
 export default function NavigationMenu() {
-    const [screenWidth, setScreenWidth] = useState('')
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
     useEffect(() => {
         window.addEventListener('resize', () => setScreenWidth(window.innerWidth))
 

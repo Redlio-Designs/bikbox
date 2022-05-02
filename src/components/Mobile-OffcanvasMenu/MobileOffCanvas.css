@@ -1,7 +1,7 @@
 .mobile-header-section {
         width: 100%;
         padding: 20px 16px;
-        border: 1px solid rgba(172, 197, 247, 0.4);
+        border-bottom: 1px solid rgba(172, 197, 247, 0.4);
 }
 
 .mobile-offcanvas {
