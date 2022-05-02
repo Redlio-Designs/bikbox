@@ -15,6 +15,8 @@ export default function CaseStudyBox(props) {
                     <p className='fz-15 color-grey'>{props.desc}</p>
                     <ThemeButton text="Learn more" />
                 </div>
+                <div className='text-center d-sm-block d-none'>
+                </div>
             </div>
         </>
     )

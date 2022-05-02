@@ -26,8 +26,8 @@ export default function CreativeTesting() {
                             <UnlockWin button="Unlock Winning Creatives Today" />
                         </div>
                         <div className='col-lg-6'>
-                        <div className='landing-hero'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/creative-testing/creative-section-hero.png'} />
+                            <div className='landing-hero'>
+                                <SingleImage imgPath={process.env.PUBLIC_URL + '/images/creative-testing/creative-section-hero.png'} />
                             </div>
                         </div>
                     </div>
@@ -41,19 +41,19 @@ export default function CreativeTesting() {
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center geo-text'>
                             <SemiTitleWithDescription title="3 Phased Testing"
                                 desc="Increase your creative win-rates, reduce Facebook Bias and produce predictable results with BLKBOX three-phased testing." />
-                           <div class="creative-point">
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'>4x Winners </strong> vs Industry Benchmark</p>
-                            </div>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'>6 hours </strong>time <strong className='text-black'>savings/week</strong></p>
-                            </div>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'> 30% Reduced </strong>Costs</p>
-                            </div>
+                            <div class="creative-point">
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'>4x Winners </strong> vs Industry Benchmark</p>
+                                </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'>6 hours </strong>time <strong className='text-black'>savings/week</strong></p>
+                                </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'> 30% Reduced </strong>Costs</p>
+                                </div>
                             </div>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
@@ -65,7 +65,7 @@ export default function CreativeTesting() {
 
 
                 <section className='optimize-budget'>
-                    <div className='row'>
+                    <div className='row col-rev'>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/creative-testing/creative-section-3.png'} />
                         </div>
@@ -73,18 +73,18 @@ export default function CreativeTesting() {
                             <SemiTitleWithDescription title="Computer Vision and Predictive Scoring"
                                 desc="Deploy computer vision and predictive scoring to gain advanced insights, identify high performing creatives, and expand your audience." />
                             <div class="creative-point">
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'>AI Generated </strong> Creative Tags</p>
-                            </div>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'>Creative </strong>Predictive Scoring</p>
-                            </div>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'> Unlock </strong>New Audiences </p>
-                            </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'>AI Generated </strong> Creative Tags</p>
+                                </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'>Creative </strong>Predictive Scoring</p>
+                                </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'> Unlock </strong>New Audiences </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -95,19 +95,19 @@ export default function CreativeTesting() {
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center audi-text'>
                             <SemiTitleWithDescription title="Weekly Creative Testing Report" desc="No spreadsheets, no complicated manual analyses. Get your Weekly Creating Testing Report delivered to your inbox." />
-                           <div className='creative-point'>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'>Weekly </strong> Creative Testing Report</p>
-                            </div>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'>40% Increase </strong>in Creative Diversity</p>
-                            </div>
-                            <div className='d-flex test-point'>
-                                <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
-                                <p className='fz-21 fw-500 color-grey'><strong className='text-black'> 2x Increase </strong>in Scaled Performance </p>
-                            </div>
+                            <div className='creative-point'>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'>Weekly </strong> Creative Testing Report</p>
+                                </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'>40% Increase </strong>in Creative Diversity</p>
+                                </div>
+                                <div className='d-flex test-point'>
+                                    <img src={process.env.PUBLIC_URL + './images/tick.svg'} className='me-3 tick-img' />
+                                    <p className='fz-21 fw-500 color-grey'><strong className='text-black'> 2x Increase </strong>in Scaled Performance </p>
+                                </div>
                             </div>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
@@ -117,7 +117,7 @@ export default function CreativeTesting() {
                 </section>
 
                 <section className='optimize-budget'>
-                    <div className='row'>
+                    <div className='row col-rev'>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/creative-testing/creative-section-5.png'} />
                         </div>
@@ -134,6 +134,9 @@ export default function CreativeTesting() {
                     <h2 className='fw-700 fz-48'>Case studies</h2>
                     <a href='#' className='fz-24 fw-600 external-link float-right text-primary'>View all</a>
                     <CaseStudyCarousel />
+                    <div className='text-center button-for-mob-cases'>
+                        <button className='btn btn-theme fz-17'>View all Case Studies</button>
+                    </div>
                 </div>
             </section>
 

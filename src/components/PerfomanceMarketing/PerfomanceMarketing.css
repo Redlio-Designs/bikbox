@@ -21,6 +21,7 @@
 @media only screen and (min-width:768px) and (max-width:1199px) {
     .perfomance-marketing {
         text-align: center;
+        padding-top: 40px;
     }
 
     .perfomance-marketing p {
@@ -42,7 +43,7 @@
 
     .perfomance-audit {
         padding-bottom: 77px;
-        height: 800px;
+        height: 870px;
     }
 
     .perfomance-marketing h1 {

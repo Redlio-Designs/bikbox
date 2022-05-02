@@ -30,3 +30,20 @@
     right: 60px;
     bottom: -30px;
 }
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .enterprise-quote-box {
+        border: 2px dashed #94C3FF;
+        border-radius: 15px;
+        margin: 140px 0 0;
+        padding: 50px 20px;
+    }
+
+    .enterprise-quote-box::before {
+        left: 20px;
+    }
+
+    .enterprise-quote-box::after {
+        right: 20px;
+    }
+}

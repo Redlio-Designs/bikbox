@@ -52,3 +52,9 @@
 .react-multiple-carousel__arrow:hover .react-multiple-carousel__arrow::before {
     color: #fff !important;
 }
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .carousel-item-box {
+        height: auto;
+    }
+}

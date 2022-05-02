@@ -30,9 +30,9 @@ export default function Skan() {
                             <UnlockWin button="Unlock Winning Creatives Today" />
                         </div>
                         <div className='col-lg-6'>
-                        <div className='landing-hero'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/ios-perfomance.png'} />
-                        </div>
+                            <div className='landing-hero pt-3'>
+                                <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/ios-perfomance.png'} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ export default function Skan() {
                 </section>
 
                 <section className='optimize-budget'>
-                    <div className='row'>
+                    <div className='row col-rev'>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/skan-facebook.png'} />
                         </div>
@@ -79,6 +79,9 @@ export default function Skan() {
                     <h2 className='fw-700 fz-48'>Case studies</h2>
                     <a href='#' className='fz-24 fw-600 external-link float-right text-primary'>View all</a>
                     <CaseStudyCarousel />
+                    <div className='text-center button-for-mob-cases'>
+                        <button className='btn btn-theme fz-17'>View all Case Studies</button>
+                    </div>
                 </div>
             </section>
             <div className='container'>
