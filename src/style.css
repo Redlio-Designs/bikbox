@@ -489,4 +489,12 @@ ul {
         width: auto;
     }
 
+    .unlock-win {
+        padding: 50px 27px;
+        margin-bottom: 74px;
+    }
+
+    .home-carousel-section {
+        padding: 80px 0 70px;
+    }
 }

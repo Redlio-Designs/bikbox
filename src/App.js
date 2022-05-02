@@ -15,8 +15,8 @@ import CreativeTesting from "./pages/CreativeTesting";
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      <PerfomanceAudit />
+      <Home />
+      {/* <PerfomanceAudit /> */}
       {/* <Skan /> */}
       {/* <CreativeTesting /> */}
       {/* <EnterprigitseLanding /> */}
