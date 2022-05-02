@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Offcanvas, Button } from "react-bootstrap";
 import './MobileOffCanvas.css'
+import { Link } from "react-router-dom";
+
 
 export default function MobileOffCanvas() {
     const [show, setShow] = useState(false);
@@ -21,12 +23,12 @@ export default function MobileOffCanvas() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <ul className="offcanvas-list">
-                        <li className="offcanvas-list-item"><a href='' className="active text-decoration-none">Home</a></li>
-                        <li className="offcanvas-list-item"><a href='' className="text-decoration-none">CreativeTesting</a></li>
-                        <li className="offcanvas-list-item"><a href='' className="text-decoration-none">Perfomance Audit</a></li>
-                        <li className="offcanvas-list-item"><a href='' className="text-decoration-none">SKAN</a></li>
-                        <li className="offcanvas-list-item"><a href='' className="text-decoration-none">Enterprise</a></li>
-                        <li className="offcanvas-list-item"><a href='' className="text-decoration-none">Creative Reporting</a></li>
+                        <li className="offcanvas-list-item"><Link to='/' className="active text-decoration-none">Home</Link></li>
+                        <li className="offcanvas-list-item"><Link to='/creativeTesting' className="text-decoration-none">CreativeTesting</Link></li>
+                        <li className="offcanvas-list-item"><Link to='/performanceAudit' className="text-decoration-none">Perfomance Audit</Link></li>
+                        <li className="offcanvas-list-item"><Link to='/skan' className="text-decoration-none">SKAN</Link></li>
+                        <li className="offcanvas-list-item"><Link to='/enterpriseLanding' className="text-decoration-none">Enterprise</Link></li>
+                        <li className="offcanvas-list-item"><Link to='/' className="text-decoration-none">Creative Reporting</Link></li>
                     </ul>
                     <img src={process.env.PUBLIC_URL + './images/home/linkedin-white.svg'} className="linkedin-img-offcavvas" />
                     <div className="offcanvas-theme-btn w-100">
