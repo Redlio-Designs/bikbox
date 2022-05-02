@@ -1,7 +1,7 @@
-.home-hero-section {
-    padding: 25px 0;
+.home-hero-section p{
+    padding:0 0 45px;
+    line-height: 35px;
 }
-
 .home-hero-section h1 {
     padding-bottom: 34px;
 }
@@ -18,4 +18,11 @@
     left: 0;
     right: 0;
     top: 240px;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+
+.home-hero-section p {
+	padding: 0 0 37px;
+	line-height: 1.5;
+}
 }

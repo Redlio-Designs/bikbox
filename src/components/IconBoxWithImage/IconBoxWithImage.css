@@ -10,3 +10,8 @@
 .icon-box img {
     margin: 10px auto;
 }
+@media only screen and (min-width:768px) and (max-width:1199px){
+.icon-box{
+    margin-bottom: 10px;
+}
+}

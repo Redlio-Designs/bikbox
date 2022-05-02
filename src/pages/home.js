@@ -28,7 +28,7 @@ export default function Home() {
                     <div className='row'>
                         <div className='col-lg-12'>
                             <HomeHeroSection />
-                            <div className='w-75 d-block mx-auto'>
+                            <div className='home-unlock d-block mx-auto'>
                                 <UnlockWin button="Unlock Performance Today - For Free!" />
                             </div>
                             <div className='bottom-hero-img text-center'>
@@ -49,16 +49,16 @@ export default function Home() {
                                 title="Built by Ex-Facebook specialists with over $1B in managed spend"
                                 desc="Blkbox is proud to be a leader in AI driven performance marketing and is featured and recognized by the best in the industry." />
                             <div className='row justify-content-around'>
-                                <div className='col-lg-3 text-center'>
+                                <div className='col-lg-3 col-md-3 col-sm-3 col-6 text-center'>
                                     <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/meta.png'} />
                                 </div>
-                                <div className='col-lg-3 text-center'>
+                                <div className='col-lg-3 col-md-3 col-sm-3 col-6 text-center'>
                                     <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/forbes.png'} />
                                 </div>
-                                <div className='col-lg-3 text-center'>
+                                <div className='col-lg-3 col-md-3 col-sm-3 col-6 text-center'>
                                     <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/yahoo.png'} />
                                 </div>
-                                <div className='col-lg-3 text-center'>
+                                <div className='col-lg-3 col-md-3 col-sm-3 col-6 text-center'>
                                     <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/market-watch.png'} />
                                 </div>
                             </div>
@@ -70,24 +70,24 @@ export default function Home() {
                 <section className='home-our-products'>
                     <TitleAndDescription title="Our Product" desc="Access in-depth analytics and insights on the Marketing API and reach high-value audiences worldwide." />
                     <div className='row'>
-                        <div className='col-lg-6 align-self-center'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <IconBoxWithImage path={process.env.PUBLIC_URL + '/images/home/wining-icon.png'} />
                             <SemiTitleWithDescription title="Find Winning Creatives" desc="Discover the best colors, compositions, keywords, objects, and more. Get high-quality insights by audience, product and many more!" />
                             <ThemeButton text="Learn more" />
                         </div>
-                        <div className='col-lg-6 align-self-center' >
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center' >
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/product-side-image.png'} />
                         </div>
                     </div>
                 </section>
 
                 {/* section 4 our products */}
-                <section className='home-our-products'>
+                <section className='home-our-products in-depth'>
                     <div className='row'>
-                        <div className='col-lg-6 align-self-center' >
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center' >
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/product-side-image-section-three.png'} />
                         </div>
-                        <div className='col-lg-6 align-self-center'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <IconBoxWithImage path={process.env.PUBLIC_URL + '/images/home/ic_marketing_statistics.png'} />
                             <SemiTitleWithDescription title="In-Depth Performance Audit" desc="Analyze historical data, find opportunities for improvement, and increase your marketing spend efficiency by 50%." />
                             <ThemeButton text="Learn more" />
@@ -98,12 +98,12 @@ export default function Home() {
                 {/* section 5 our products */}
                 <section className='home-our-products'>
                     <div className='row'>
-                        <div className='col-lg-6 align-self-center'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <IconBoxWithImage path={process.env.PUBLIC_URL + '/images/home/monitoring-icon.png'} />
                             <SemiTitleWithDescription title="24/7 Monitoring" desc="Detect optimization opportunities and issues as they arise. Our 24/7 monitoring drastically reduces the risk to your marketing campaigns." />
                             <ThemeButton text="Learn more" />
                         </div>
-                        <div className='col-lg-6 align-self-center' >
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center' >
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/product-side-image-section-four.png'} />
                         </div>
 

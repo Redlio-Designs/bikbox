@@ -33,3 +33,29 @@ footer {
 .book-demo {
     margin-top: 84px;
 }
+
+@media only screen and (min-width:768px) and (max-width:1199px){
+    .footer-text p {
+        line-height: 20px;
+        padding: 10px 0px 10px 0;
+    }
+    .page-list {
+        padding: 40px 0 0;
+    }
+    .page-list ul{
+        padding-left: 0;
+    }
+    .page-list li{
+        padding-bottom: 10px;
+    }
+    .book-demo {
+        margin-top: 43px;
+    }
+    .footer-bottom {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    footer{
+        padding-top:60px;
+    }
+}

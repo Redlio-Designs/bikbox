@@ -28,7 +28,9 @@ export default function PerfomanceAudit() {
                             <UnlockWin button="Unlock Winning Creatives Today" />
                         </div>
                         <div className='col-lg-6'>
+                            <div className='landing-hero'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/marketing.png'} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -36,10 +38,10 @@ export default function PerfomanceAudit() {
             <div className="container">
                 <section className='geographic'>
                     <div className='row'>
-                        <div className='col-lg-6 align-self-center geo-text'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center geo-text'>
                             <SemiTitleWithDescription title="Geographical Performance Audit" desc="Audit your ads delivery by country/region. BLKBOX highlights countries and regions that are above and below your target. Identify untapped geographical opportunities, improve universal performance, and maximize creative success." />
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/geographical.png'} />
 
                         </div>
@@ -48,30 +50,30 @@ export default function PerfomanceAudit() {
 
                 <section className='optimize-budget'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/optimize.png'} />
                         </div>
-                        <div className='col-lg-6 align-self-center opti-text'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center opti-text'>
                             <SemiTitleWithDescription title="Optimization, Bidding, and Budgeting Audit" desc="Align your ad spend to the best opportunities with detailed chart views. Get account-specific recommendations around MAI vs AEO vs VO, Autobid vs Bid Cap vs Cost Cap vs MinRoas." />
                         </div>
                     </div>
                 </section>
                 <section className='audience-audit'>
                     <div className='row'>
-                        <div className='col-lg-6 align-self-center audi-text'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center audi-text'>
                             <SemiTitleWithDescription title="Audience Audit" desc="Identify audiences that produce the best results across different timeframes and regions. BLKBOX provides a detailed audit across each of your seed lists, enabling you to scale your SDK based audiences or custom audiences." />
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 col-md-6 col-sm-6'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/audience-audit.png'} />
                         </div>
                     </div>
                 </section>
                 <section className='creative-spec'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <SingleImage imgPath={process.env.PUBLIC_URL + '/images/perfomance/creative-spec.png'} />
                         </div>
-                        <div className='col-lg-6 align-self-center cre-text'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center cre-text'>
                             <SemiTitleWithDescription title="Creative Spec & Dimension Audit" desc="Gain insights into your top performing creative types and dimensions. Whether it’s an image or a video, in portrait or landscape, BLKBOX identifies what creatives are working best for your ad account." />
                         </div>
                     </div>
