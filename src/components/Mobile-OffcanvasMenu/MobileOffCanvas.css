@@ -1,0 +1,46 @@
+.mobile-header-section {
+        width: 100%;
+        padding: 20px 16px;
+        border: 1px solid rgba(172, 197, 247, 0.4);
+}
+
+.mobile-offcanvas {
+        width: 100vw;
+        background: #040E20;
+        padding: 44px 40px;
+}
+
+.mobile-offcanvas .offcanvas-header {
+        margin-bottom: 49px;
+        padding: 0;
+}
+
+.mobile-offcanvas .offcanvas-body {
+        padding: 0;
+}
+
+.offcanvas-list {
+        padding: 0;
+        margin-bottom: 119px;
+}
+
+.offcanvas-list-item {
+        padding: 16px 0 16px;
+        color: rgba(255, 255, 255, 0.49);
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+}
+
+.active {
+        color: #ffffff;
+}
+
+.linkedin-img-offcavvas {
+        margin: 8px 0;
+}
+
+.offcanvas-theme-btn {
+        margin-top: 35px;
+        width: 97%;
+}
