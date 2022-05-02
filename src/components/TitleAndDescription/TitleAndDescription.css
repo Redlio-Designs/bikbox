@@ -5,3 +5,12 @@
 .sub-section-description {
     padding-bottom: 50px;
 }
+
+@media only screen and (min-width:768px) and (max-width:1199px){
+.sub-section-title {
+	padding-bottom: 20px;
+}
+.sub-section-description {
+    padding-bottom: 30px;
+}
+}

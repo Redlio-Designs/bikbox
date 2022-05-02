@@ -30,7 +30,9 @@ export default function Skan() {
                             <UnlockWin button="Unlock Winning Creatives Today" />
                         </div>
                         <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/data-science.png'} />
+                        <div className='landing-hero'>
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/ios-perfomance.png'} />
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -38,11 +40,11 @@ export default function Skan() {
             <div className="container">
                 <section className='geographic'>
                     <div className='row'>
-                        <div className='col-lg-6 align-self-center geo-text'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center geo-text'>
                             <SemiTitleWithDescription title="Data Science Models to Identify High-value Events" desc="Powered by our Machine Learning frameworks, we can analyze current app activity, discover event correlations and purchase patterns of current and future user values." />
                         </div>
-                        <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/skan-facebook.png'} />
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/data-science.png'} />
 
                         </div>
                     </div>
@@ -50,15 +52,26 @@ export default function Skan() {
 
                 <section className='optimize-budget'>
                     <div className='row'>
-                        <div className='col-lg-6'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/scaled-marketing.png'} />
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/skan-facebook.png'} />
                         </div>
-                        <div className='col-lg-6 align-self-center opti-text'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center opti-text'>
                             <SemiTitleWithDescription title="Implement the Optimal SKAN Schema Across Facebook" desc="We identify the right events and purchase ranges, and implement the Schema on your MMP. This will, in turn impact marketing spend across all platforms." />
                         </div>
                     </div>
                 </section>
 
+                <section className='audience-audit'>
+                    <div className='row'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center geo-text'>
+                            <SemiTitleWithDescription title="Scaled Marketing Performance" desc="Once the schema is implemented, we evolve the right multi step approach to scale your performance with due care to all privacy thresholds." />
+                        </div>
+                        <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/skan/scaled-marketing.png'} />
+
+                        </div>
+                    </div>
+                </section>
             </div>
 
             <section className='casestudy-section'>

@@ -57,6 +57,9 @@ ul {
     font-size: 21px;
 }
 
+.fz-24{
+    font-size: 24px;
+}
 .fz-20 {
     font-size: 20px;
 }
@@ -164,7 +167,10 @@ ul {
 .facebook-specialist img {
     width: 200px;
 }
-
+.home-hero-section, .home-unlock {
+	width: 712px;
+	margin: 0 auto;
+}
 /* ************************************************ Home Page *************************************************** */
 
 /* ************************************************ Perfomance Audit Page *************************************************** */
@@ -238,15 +244,186 @@ ul {
 
 
 /* ************************************************ Enterprise Landing Page *************************************************** */
-.tick-img {
-    width: 28px;
-    height: auto;
-    filter: none;
-}
-
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .container {
         max-width: 1152px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px){
+    .fz-50{
+        font-size: 40px;
+    }
+    .fz-42{
+        font-size: 36px;
+    }
+    .fz-22{
+        font-size: 20px;
+    }
+    .fz-23{
+        font-size: 20px;
+    }
+    .fz-21{
+        font-size: 18px;
+    }
+    .fz-24{
+        font-size: 20px;
+    }
+    .fz-34{
+        font-size: 22px;
+    }
+    .fz-48 {
+        font-size: 30px;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .landing-hero{
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        padding-top: 50px;
+    }
+    .enterprise-quote-box{
+        margin:60px 0;
+        padding: 30px;
+    }
+    .geographic {
+        padding: 60px 0;
+    }
+    .geographic .desc, .optimize-budget .desc, .audience-audit .desc, .creative-spec .desc{
+        width: 100%;
+        padding-bottom: 0;
+        line-height: 1.5;
+    }
+    .geographic h2, .creative-spec h2, .optimize-budget h2, .audience-audit h2{
+        width: 100%;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+    .cre-text, .opti-text {
+        padding-left: 30px;
+    }
+    .optimize-budget, .creative-spec, .audience-audit {
+        padding-bottom: 60px;
+    }
+    .casestudy-section{
+        padding: 60px 0;
+        margin-bottom: 60px;
+    }
+    .casestudy-section h2{
+        padding-bottom: 30px;
+    }
+    .btn-theme{
+        padding:9px 25px;
+        font-size: 16px;
+    }
+    .case-box .text-box p {
+        padding-bottom: 10px;
+    }
+    .react-multi-carousel-track {
+        margin-bottom: 0px !important;
+    }
+    .unlock-win{
+        padding: 30px;
+        margin-bottom: 60px;
+    }
+
+    .sub-section-title {
+        padding-bottom: 18px;
+    }
+    .home-hero-section, .home-unlock {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bottom-hero-img {
+        bottom: 50px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bg-light-blue{
+        margin-bottom: 0;
+    }
+    .facebook-specialist{
+        padding: 60px 0;
+        margin-bottom: 0;
+    }
+    .home-our-products {
+        padding-bottom: 60px;
+    }
+    .home-carousel-section{
+        padding:60px 0;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .container{
+        max-width: 90%;
+    }
+    .fz-50 {
+        font-size: 30px;
+    }
+    .fz-48 {
+        font-size: 30px;
+    }
+    .fz-20 {
+        font-size: 17px;
+    }
+    .fz-18{
+        font-size: 16px;
+    }
+    .fz-21{
+        font-size: 16px;
+    }
+    .fz-34{
+        font-size: 22px;
+    }
+    .fz-17{
+        font-size: 16pz;
+    }
+    .home-hero-section, .home-unlock {
+        width: 100%;
+    }
+    .bg-light-blue{
+        margin-bottom: 0;
+        height: 786px;
+    }
+    .bottom-hero-img img{
+        width: 90%;
+        max-width: 0 auto;
+    }
+    .bottom-hero-img{
+        bottom: 50px;
+    }
+    .facebook-specialist img{
+        padding-bottom: 22px;
+    }
+    .facebook-specialist{
+        margin-bottom: 0;
+    }
+    .home-our-products p{
+        line-height: 1.8;
+    }
+    .btn-theme{
+        padding: 11px 33px;
+    }
+    .in-depth .row{
+        flex-direction: column-reverse;
+    }
+    .home-our-products {
+        padding-bottom: 70px;
+    }
+    .home-our-products button{
+        margin-bottom: 20px;
+    }
+    .unlock-win{
+        padding: 50px 27px;
+        margin-bottom: 74px;
+    }
+    .home-carousel-section{
+        padding: 80px 0 70px;
     }
 }
