@@ -68,7 +68,7 @@ export default function EnterpriseLanding() {
                             <SemiTitleWithDescription title="Technical Growth Ambassadors" desc="Get the Facebook expertise to drive business growth across media buying, signal & audits, and the inner workings of the Facebook Ads Auction to unlock low-hanging ROAS opportunities for scaled performance!" />
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
-                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/EnterpriseLanding/landing-section-3.png'} />
+                            <SingleImage imgPath={process.env.PUBLIC_URL + '/images/EnterpriseLanding/technical-growth-ambassadors.png'} />
                         </div>
                     </div>
                 </section>
@@ -96,7 +96,7 @@ export default function EnterpriseLanding() {
                             ></TitleAndDescription>
                         </div>
                         <div className='col-lg-8 mx-auto'>
-                            <UnlockWin button="Unlock Performance Today - For Free!" />
+                            <UnlockWin button="Unlock Performance - For Free!" />
                         </div>
                     </div>
                 </section>

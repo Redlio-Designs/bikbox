@@ -192,7 +192,7 @@ ul {
     padding: 108px 0 88px;
 }
 
-.geographic img,
+/* .geographic img, */
 .optimize-budget img,
 .creative-spec img,
 .opti-text img,
@@ -517,7 +517,8 @@ ul {
     }
 
     .btn.btn-primary {
-        font-size: 14px;
+        font-size: 16px;
+        padding: 0 14px;
     }
 
     .perfomance-marketing {

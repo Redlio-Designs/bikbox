@@ -170,7 +170,7 @@ export default function Home() {
                             ></TitleAndDescription>
                         </div>
                         <div className='col-lg-8 mx-auto'>
-                            <UnlockWin button="Unlock Performance Today - For Free!" />
+                            <UnlockWin button="Unlock Performance  - For Free!" />
                         </div>
                     </div>
                 </section>
