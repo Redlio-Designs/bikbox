@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react'
-import {Link} from "react-router-dom";
+import React, { useEffect, useState } from 'react'
+import { Link } from "react-router-dom";
 import './NavigationMenu.css'
 import ThemeButton from '../ThemeButton/ThemeButton'
 import MobileOffCanvas from '../Mobile-OffcanvasMenu/MobileOffCanvas'
@@ -42,7 +42,7 @@ export default function NavigationMenu() {
                                     </li>
                                 </ul>
                                 <form className="d-flex">
-                                    <ThemeButton text="Book a Demo" />
+                                    <ThemeButton text="Book a Demo" className='btn-theme-minor' />
                                 </form>
                             </div>
                         </div>

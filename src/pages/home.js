@@ -13,6 +13,8 @@ import MarketingPlatform from '../components/MarketingPlatform/MarketingPlatform
 import HomeCarousel from '../components/HomeCarousel/HomeCarousel'
 
 import BackTop from '../components/BackTop/BackTop'
+import HomeHeroImage from '../components/HomeHeroImage/HomeHeroImage'
+
 
 
 // components end
@@ -32,7 +34,7 @@ export default function Home() {
                                 <UnlockWin button="Unlock Performance Today - For Free!" />
                             </div>
                             <div className='bottom-hero-img text-center'>
-                                <SingleImage imgPath={process.env.PUBLIC_URL + '/images/home/home-hero-section-img.png'} className='singleImg' />
+                                <HomeHeroImage />
                             </div>
                         </div>
                     </div>
@@ -42,7 +44,7 @@ export default function Home() {
             <div className='container'>
                 <BackTop />
                 {/* section 2 built by fox */}
-                <section className='facebook-specialist'>
+                <section className='facebook-specialist home-facebook-specialist'>
                     <div className='row'>
                         <div className='col-lg-12'>
                             <TitleAndDescription

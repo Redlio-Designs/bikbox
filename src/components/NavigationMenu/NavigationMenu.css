@@ -12,3 +12,10 @@
     border-radius: 7px;
     box-shadow: 0px 7.69863px 26.9452px rgb(0 0 0 / 6%);
 }
+
+.navbar ThemeButton {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 22px;
+
+}
