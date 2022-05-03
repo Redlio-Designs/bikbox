@@ -5,3 +5,10 @@
 .theme-navigation .navbar li a {
     color: #040e20;
 }
+
+.custom-dropdown-menu {
+    padding: 1rem 0.5rem;
+    border: 1px solid #E9EBEE;
+    border-radius: 7px;
+    box-shadow: 0px 7.69863px 26.9452px rgb(0 0 0 / 6%);
+}

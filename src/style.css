@@ -105,8 +105,8 @@ ul {
     background-color: #2682F5;
     color: #fff;
     font-weight: 600;
-    font-size: 18px;
-    padding: 13px 33px;
+    font-size: 14px;
+    padding: 10px 22px;
     border-radius: 8px;
     transition: 0.3s all;
     border: 1px solid #2682F5;
@@ -291,6 +291,8 @@ ul {
     .fz-48 {
         font-size: 30px;
     }
+
+
 
     .container {
         max-width: 90%;
