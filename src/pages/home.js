@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 // components
 import SingleImage from '../components/SingleImage/SingleImage'
 import SemiTitleWithDescription from '../components/SemiTitleWithDescription/SemiTitleWithDescription'
@@ -20,13 +20,27 @@ import HomeHeroImage from '../components/HomeHeroImage/HomeHeroImage'
 // components end
 
 export default function Home() {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+    useEffect(() => {
+        window.addEventListener('resize', () => setScreenWidth(window.innerWidth))
+
+    })
     return (
         <>
-
-
             <div className='bg-light-blue'>
+                {
+                    screenWidth <= 768 ?
+                        <container fluid>
+                            <div className='MP9597' id="Remove-Con-In-Mob">
+                                <NavigationMenu />
+                            </div>
+                        </container> :
+                        <div className='container MP9597' id="Remove-Con-In-Desktop">
+                            <NavigationMenu />
+                        </div>
+                }
                 <div className='container'>
-                    <NavigationMenu />
                     <div className='row'>
                         <div className='col-lg-12'>
                             <HomeHeroSection />

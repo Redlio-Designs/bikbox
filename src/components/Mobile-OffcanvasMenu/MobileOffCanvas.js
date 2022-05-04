@@ -19,16 +19,19 @@ export default function MobileOffCanvas() {
     return (
         <>
             <div className="mobile-header-section d-flex justify-content-between align-items-center">
-                <img src={process.env.PUBLIC_URL + './images/logo.png'} />
+                <Link to='/'>  <img src={process.env.PUBLIC_URL + './images/logo.png'} /></Link>
                 <img src={process.env.PUBLIC_URL + './images/home/humburger.svg'} onClick={handleShow} className='cursor-pointer' />
             </div>
             <Offcanvas show={show} onHide={handleClose} className="mobile-offcanvas">
                 <Offcanvas.Header>
-                    <Offcanvas.Title className="d-flex justify-content-between align-items-center w-100"> <img src={process.env.PUBLIC_URL + './images/white-logo.svg'} />
-                        <Link to='/'>
-                            <img src={process.env.PUBLIC_URL + './images/white-close-icon.svg'} onClick={handleClose} className='cursor-pointer' cursor-pointer />
+                    <Offcanvas.Title className="d-flex justify-content-between align-items-center w-100"> <Link to='/'> <img src={process.env.PUBLIC_URL + './images/white-logo.svg'} /></Link>
 
-                        </Link>
+
+
+                        <img src={process.env.PUBLIC_URL + './images/white-close-icon.svg'} onClick={handleClose} className='cursor-pointer' cursor-pointer />
+
+
+
                     </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>

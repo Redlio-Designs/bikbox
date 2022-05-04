@@ -5,9 +5,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.js';
 import $ from 'jquery';
 
 
-import { Routes, Route } from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import "./style.css"
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import PerfomanceAudit from "./pages/PerfomanceAudit";
 import Skan from "./pages/Skan";
 import EnterprigitseLanding from "./pages/EnterpriseLanding";
