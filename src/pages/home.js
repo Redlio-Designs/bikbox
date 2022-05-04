@@ -29,17 +29,9 @@ export default function Home() {
     return (
         <>
             <div className='bg-light-blue'>
-                {
-                    screenWidth <= 768 ?
-                        <container fluid>
-                            <div className='MP9597' id="Remove-Con-In-Mob">
-                                <NavigationMenu />
-                            </div>
-                        </container> :
-                        <div className='container MP9597' id="Remove-Con-In-Desktop">
-                            <NavigationMenu />
-                        </div>
-                }
+                <div className={screenWidth <= 768 ? '' : 'container MP9597'} id="Remove-Con-In-All-Screen">
+                    <NavigationMenu />
+                </div>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>

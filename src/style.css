@@ -135,7 +135,7 @@ ul {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -190px;
+    bottom: -400px;
 }
 
 .bottom-hero-img img {
@@ -155,7 +155,7 @@ ul {
 }
 
 .facebook-specialist.home-facebook-specialist {
-    padding: 150px 0 80px 0;
+    padding: 365px 0 80px 0;
 }
 
 .unlock-win {
@@ -260,6 +260,14 @@ ul {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .container {
         max-width: 1152px;
+    }
+
+    .bottom-hero-img {
+        bottom: -200px;
+    }
+
+    .facebook-specialist.home-facebook-specialist {
+        padding: 161px 0 80px 0;
     }
 }
 
@@ -399,6 +407,10 @@ ul {
         margin-bottom: 0;
     }
 
+    .facebook-specialist.home-facebook-specialist {
+        padding: 90px 0 80px 0;
+    }
+
     .home-our-products {
         padding-bottom: 60px;
     }
@@ -447,6 +459,10 @@ ul {
         font-size: 22px;
     }
 
+    .fz-36 {
+        font-size: 28px;
+    }
+
     .fz-17 {
         font-size: 16pz;
     }
@@ -484,6 +500,10 @@ ul {
 
     .home-our-products p {
         line-height: 1.8;
+    }
+
+    .facebook-specialist.home-facebook-specialist {
+        padding: 130px 0 80px 0;
     }
 
     .btn-theme {
