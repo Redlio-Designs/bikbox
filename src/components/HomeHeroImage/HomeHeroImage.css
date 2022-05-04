@@ -61,18 +61,18 @@
 
 @media only screen and (min-width:320px) and (max-width:767px) {
     .base-img {
-        width: 90%;
+        width: 70%;
     }
 
     .base-img-2 {
         right: 20px;
-        top: 34px;
+        top: 24px;
         width: 70px !important;
     }
 
     .base-img-3 {
-        left: 0;
-        bottom: -57px;
+        left: 34px;
+        bottom: -27px;
         width: 89px !important;
     }
 

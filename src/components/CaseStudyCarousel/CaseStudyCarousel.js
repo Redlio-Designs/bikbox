@@ -12,6 +12,7 @@ export default function CaseStudyCarousel() {
                 autoPlaySpeed={3000}
                 centerMode={false}
                 className=""
+                showDots={true}
                 containerClass="container-with-dots"
                 dotListClass=""
                 draggable
