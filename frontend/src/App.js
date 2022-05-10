@@ -13,6 +13,7 @@ import Skan from "./pages/Skan";
 import EnterprigitseLanding from "./pages/EnterpriseLanding";
 import CreativeTesting from "./pages/CreativeTesting";
 import Blog from "./pages/Blog";
+import SingleBlog from './pages/SingleBlog'
 
 
 
@@ -26,6 +27,8 @@ function App() {
         <Route path="enterpriseLanding" element={<EnterprigitseLanding />} />
         <Route path="creativeTesting" element={<CreativeTesting />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="single-blog/:id" element={<SingleBlog />} />
       </Routes>
     </>
   );
