@@ -1,0 +1,15 @@
+.input-form {
+    border: 1px solid #E9EBEE;
+    border-radius: 8px;
+    height: 48px;
+}
+
+/* .input-box::after {
+    position: absolute;
+    content: '';
+    background-image: url(process.env.PUBLIC_URL'./images/Search.png');
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+
+} */

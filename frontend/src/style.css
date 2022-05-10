@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    color: #212B36;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.color-grey {
+    color: #637381;
+}
+
+.fz-50 {
+    font-size: 50px;
+}
+
+.fz-48 {
+    font-size: 48px;
+}
+
+.fz-42 {
+    font-size: 42px;
+}
+
+.fz-36 {
+    font-size: 36px;
+}
+
+.fz-34 {
+    font-size: 34px;
+}
+
+.fz-23 {
+    font-size: 23px;
+}
+
+.fz-22 {
+    font-size: 22px;
+}
+
+.fz-21 {
+    font-size: 21px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-19 {
+    font-size: 19px;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.fz-17 {
+    font-size: 17px;
+}
+
+.fz-16 {
+    font-size: 16px;
+}
+
+.fz-15 {
+    font-size: 15px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-13 {
+    font-size: 13px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.btn-theme {
+    background-color: #2682F5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    transition: 0.3s all;
+    border: 1px solid #2682F5;
+    box-shadow: 0px 1.42057px 2.84114px rgba(38, 130, 245, 0.14), 0px 2.84114px 5.68229px rgba(38, 130, 245, 0.16);
+}
+
+.btn-theme:hover {
+    background-color: #fff;
+    color: #2682F5;
+}
+
+.bg-light-blue {
+    background-color: #F0F7FF;
+    position: relative;
+    height: 956px;
+    margin-bottom: 150px;
+}
+
+.home-carousel-section {
+    background-color: #F0F7FF;
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+.bottom-hero-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -400px;
+}
+
+.bottom-hero-img img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bottom-hero-img SingleImage {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* ************************************************ Home Page *************************************************** */
+.facebook-specialist {
+    padding: 80px 0;
+    margin-bottom: 35px;
+}
+
+.facebook-specialist.home-facebook-specialist {
+    padding: 365px 0 80px 0;
+}
+
+.unlock-win {
+    background: #F0F7FF;
+    border-radius: 12px;
+    padding: 70px 0;
+    margin-bottom: 85px;
+}
+
+.home-our-products {
+    padding-bottom: 80px;
+}
+
+.facebook-specialist img {
+    width: 200px;
+}
+
+.home-hero-section,
+.home-unlock {
+    width: 712px;
+    margin: 0 auto;
+}
+
+/* ************************************************ Home Page *************************************************** */
+
+/* ************************************************ Perfomance Audit Page *************************************************** */
+.perfomance-audit {
+    padding-bottom: 77px;
+    height: 100%;
+    background: #F0F7FF;
+}
+
+.button-for-mob-cases {
+    display: none;
+}
+
+.geographic {
+    padding: 108px 0 88px;
+}
+
+/* .geographic img, */
+.optimize-budget img,
+.creative-spec img,
+.opti-text img,
+.audience-audit img {
+    filter: drop-shadow(0px 4px 4px rgba(37, 58, 82, 0.04)) drop-shadow(0px 5px 59px rgba(37, 58, 82, 0.09));
+}
+
+.geographic h2,
+.creative-spec h2 {
+    width: 335px;
+    line-height: 1.5;
+}
+
+.optimize-budget h2 {
+    width: 540px;
+    line-height: 1.5;
+}
+
+.optimize-budget,
+.creative-spec,
+.audience-audit {
+    padding-bottom: 88px;
+}
+
+.cre-text,
+.opti-text {
+    padding-left: 50px;
+}
+
+/* ************************************************ Perfomance Audit Page *************************************************** */
+
+/* ************************************************ Enterprise Landing Page *************************************************** */
+.enterprise-quote-box {
+    padding: 80px 0;
+}
+
+.casestudy-section {
+    background: #F0F7FF;
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+.casestudy-section h2 {
+    padding-bottom: 40px;
+    display: inline-block;
+
+}
+
+.casestudy-section .external-link {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+
+
+
+
+/* ************************************************ Enterprise Landing Page *************************************************** */
+
+/* ************************************************ Blog Page *************************************************** */
+.blog-header {
+    padding: 70px 0 140px;
+    position: relative;
+}
+
+.right-dot {
+    position: absolute;
+    width: auto;
+    right: 0;
+    bottom: 10px;
+}
+
+.left-dot {
+    position: absolute;
+    width: 139px;
+    bottom: 10px;
+    left: 0;
+}
+
+.blog-header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #333b4b;
+}
+
+.blog-header .blue-text {
+    background: linear-gradient(93.77deg, #26D0F5 -26.68%, #2682F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.blog-dt.perfomance-audit {
+    padding-bottom: 0;
+}
+
+.blog-list-section .blog-left-sec .blog-list-title {
+    padding-bottom: 43px;
+}
+
+.blog-list-section {
+    padding: 70px 0;
+}
+
+
+
+
+/* ************************************************ Blog Page *************************************************** */
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .container {
+        max-width: 1152px;
+    }
+
+    .bottom-hero-img {
+        bottom: -280px;
+    }
+
+    .facebook-specialist.home-facebook-specialist {
+        padding: 161px 0 80px 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+    .fz-50 {
+        font-size: 40px;
+    }
+
+    .fz-42 {
+        font-size: 36px;
+    }
+
+    .fz-22 {
+        font-size: 20px;
+    }
+
+    .fz-23 {
+        font-size: 20px;
+    }
+
+    .fz-21 {
+        font-size: 18px;
+    }
+
+    .fz-24 {
+        font-size: 20px;
+    }
+
+    .fz-34 {
+        font-size: 22px;
+    }
+
+    .fz-48 {
+        font-size: 30px;
+    }
+
+
+
+    .container {
+        max-width: 90%;
+    }
+
+    .landing-hero {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        padding-top: 50px;
+    }
+
+    .enterprise-quote-box {
+        margin: 60px 0;
+        padding: 30px;
+    }
+
+    .geographic {
+        padding: 60px 0;
+    }
+
+    .geographic .desc,
+    .optimize-budget .desc,
+    .audience-audit .desc,
+    .creative-spec .desc {
+        width: 100%;
+        padding-bottom: 0;
+        line-height: 1.5;
+    }
+
+    .geographic h2,
+    .creative-spec h2,
+    .optimize-budget h2,
+    .audience-audit h2 {
+        width: 100%;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+
+    .cre-text,
+    .opti-text {
+        padding-left: 30px;
+    }
+
+    .optimize-budget,
+    .creative-spec,
+    .audience-audit {
+        padding-bottom: 60px;
+    }
+
+    .casestudy-section {
+        padding: 60px 0;
+        margin-bottom: 60px;
+    }
+
+    .casestudy-section h2 {
+        padding-bottom: 30px;
+    }
+
+    .btn-theme {
+        padding: 9px 25px;
+        font-size: 16px;
+    }
+
+    .case-box .text-box p {
+        padding-bottom: 10px;
+    }
+
+    .react-multi-carousel-track {
+        margin-bottom: 0px !important;
+    }
+
+    .unlock-win {
+        padding: 30px;
+        margin-bottom: 60px;
+    }
+
+    .sub-section-title {
+        padding-bottom: 18px;
+    }
+
+    .home-hero-section,
+    .home-unlock {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bottom-hero-img {
+        bottom: -60px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bg-light-blue {
+        margin-bottom: 0;
+    }
+
+    .facebook-specialist {
+        padding: 60px 0;
+        margin-bottom: 0;
+    }
+
+    .facebook-specialist.home-facebook-specialist {
+        padding: 90px 0 80px 0;
+    }
+
+    .home-our-products {
+        padding-bottom: 60px;
+    }
+
+    .home-carousel-section {
+        padding: 60px 0;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .fz-50 {
+        font-size: 30px;
+    }
+
+    .fz-48 {
+        font-size: 30px;
+    }
+
+    .fz-42 {
+        font-size: 36px;
+    }
+
+    .fz-20 {
+        font-size: 17px;
+    }
+
+    .fz-23 {
+        font-size: 20px;
+    }
+
+    .fz-18 {
+        font-size: 16px;
+    }
+
+    .fz-21 {
+        font-size: 16px;
+    }
+
+    .fz-34 {
+        font-size: 22px;
+    }
+
+    .fz-36 {
+        font-size: 28px;
+    }
+
+    .fz-17 {
+        font-size: 16pz;
+    }
+
+    .home-hero-section,
+    .home-unlock {
+        width: 100%;
+    }
+
+    .home-hero-section {
+        padding-top: 45px;
+    }
+
+    .bg-light-blue {
+        margin-bottom: 0;
+        height: 786px;
+    }
+
+    .bottom-hero-img img {
+        width: 75%;
+        max-width: 0 auto;
+    }
+
+    .bottom-hero-img {
+        bottom: -90px;
+    }
+
+    .facebook-specialist img {
+        padding-bottom: 22px;
+    }
+
+    .facebook-specialist {
+        margin-bottom: 0;
+    }
+
+    .home-our-products p {
+        line-height: 1.8;
+    }
+
+    .facebook-specialist.home-facebook-specialist {
+        padding: 40px 0 80px 0;
+    }
+
+    .btn-theme {
+        padding: 11px 33px;
+    }
+
+    .in-depth .row {
+        flex-direction: column-reverse;
+    }
+
+    .home-our-products {
+        padding-bottom: 70px;
+    }
+
+    .home-our-products button {
+        margin-bottom: 20px;
+    }
+
+    .cre-text,
+    .opti-text {
+        padding-left: 0;
+    }
+
+    .optimize-budget h2 {
+        width: auto;
+    }
+
+    .unlock-win {
+        padding: 50px 27px;
+        margin-bottom: 74px;
+    }
+
+    .home-carousel-section {
+        padding: 80px 0 70px;
+    }
+
+    .btn.btn-primary {
+        font-size: 15px;
+        padding: 0 14px;
+    }
+
+    .perfomance-marketing {
+        padding-top: 40px;
+    }
+
+    .col-rev {
+        flex-direction: column-reverse;
+    }
+
+    .button-for-mob-cases {
+        display: block;
+    }
+
+    .button-for-mob-cases .btn-theme {
+        width: 100%;
+    }
+
+    .casestudy-section .external-link {
+        display: none;
+    }
+}

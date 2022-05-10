@@ -1,0 +1,52 @@
+.blog-box {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.blog-box .img-sec {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.blog-box .img-sec img {
+    width: 100%;
+}
+
+.blog-box .text-sec {
+    padding: 29px 25px;
+}
+
+.blog-box .text-sec .blog-date {
+    padding-bottom: 18px;
+}
+
+.blog-box .blog-title {
+    padding-bottom: 24px;
+}
+
+.blog-box .social-icon .twitter-box {
+    background: #1DA1F2;
+    border-radius: 50px;
+    padding: 3px 9px;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.blog-box .social-icon .linkedin-box {
+    background: #0E76A8;
+    border-radius: 50px;
+    padding: 2px 9px;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.blog-box .social-icon .share-box {
+    border: 1.5px solid #E9EBEE;
+    border-radius: 50px;
+    padding: 2px 5px;
+    width: 32px;
+    height: 32px;
+}
