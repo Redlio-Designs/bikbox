@@ -4,6 +4,11 @@
     height: 48px;
 }
 
+.input-box {
+    margin-left: auto;
+    width: 337px;
+}
+
 /* .input-box::after {
     position: absolute;
     content: '';

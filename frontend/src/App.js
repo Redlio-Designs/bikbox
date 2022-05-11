@@ -27,7 +27,6 @@ function App() {
         <Route path="enterpriseLanding" element={<EnterprigitseLanding />} />
         <Route path="creativeTesting" element={<CreativeTesting />} />
         <Route path="blog" element={<Blog />} />
-        <Route path="blog" element={<Blog />} />
         <Route path="single-blog/:id" element={<SingleBlog />} />
       </Routes>
     </>

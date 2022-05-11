@@ -19,7 +19,7 @@ export default function NavigationMenu() {
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
                             <Link to='/' className='navbar-brand'>
-                                <img src={process.env.PUBLIC_URL + './images/logo.png'} />
+                                <img src={process.env.PUBLIC_URL + '../images/logo.png'} />
                             </Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"><img src={process.env.PUBLIC_URL + './images/home/humburger.svg'} /></span>
@@ -36,8 +36,7 @@ export default function NavigationMenu() {
                                             <li><Link to='/performanceAudit' className='dropdown-item'>Perfomance Audit</Link></li>
                                             <li><Link to='/skan' className='dropdown-item'>Skan</Link></li>
                                             <li><Link to='/enterpriseLanding' className='dropdown-item'>Enterprise Landing</Link></li>
-
-
+                                            <li><Link to='/blog' className='dropdown-item'>Blog</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

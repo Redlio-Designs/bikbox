@@ -37,6 +37,10 @@ ul {
     font-size: 42px;
 }
 
+.fz-38 {
+    font-size: 38px;
+}
+
 .fz-36 {
     font-size: 36px;
 }
@@ -91,6 +95,10 @@ ul {
 
 .fz-13 {
     font-size: 13px;
+}
+
+.fz-11 {
+    font-size: 11px;
 }
 
 .fw-700 {
@@ -310,6 +318,64 @@ ul {
 
 
 /* ************************************************ Blog Page *************************************************** */
+
+
+/* ************************************************ Single Blog Page *************************************************** */
+.blog-detailed-content {
+    padding: 70px 0;
+}
+
+.custom-width {
+
+    border-radius: 14px;
+}
+
+.blog-content {
+    padding: 50px 194px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    position: relative;
+    top: -100px;
+
+}
+
+.blog-featured-img {
+    position: relative;
+    height: 441px;
+    object-fit: cover;
+
+}
+
+.blog-featured-img img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-title {
+    padding-bottom: 45px;
+}
+
+.blog-authot-share-sec {
+    padding-bottom: 30px;
+}
+
+.recent-blog-section {
+    padding: 70px 0;
+}
+
+.recent-blog-title {
+    padding: 46px 0 20px 0;
+}
+
+.blogs .unlock-form button {
+    width: 40%;
+}
+
+/* ************************************************ Single Blog Page *************************************************** */
+
 
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {

@@ -10,21 +10,22 @@ import InputBox from '../components/InputBox/InputBox'
 import fetch from 'isomorphic-fetch'
 import moment from 'moment'
 import { Link } from 'react-router-dom'
+import RecentBlogListSec from '../components/RecentBlogListSec/RecentBlogListSec'
+
 
 export default function Blog() {
 
     const [blog, setBlog] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:1337/api/blogs')
-            .then((response) => response.json()) //2
+        fetch(`http://localhost:1337/api/blogs?populate=*`)
+            .then((response) => response.json())
             .then((blog) => {
-                setBlog(blog.data); //3
+                setBlog(blog.data);
             });
     }, []);
 
-    console.log('lets see', blog)
-
+    console.log(blog)
 
     return (<>
 
@@ -52,16 +53,16 @@ export default function Blog() {
                 <div className='row'>
 
 
-                    <div className='col-lg-8 blog-left-sec'>
+                    <div className='col-lg-12 blog-left-sec'>
                         <h2 className='fz-42 fw-700 blog-list-title'>All Blogs</h2>
                         <div className='row'>
 
-                            {blog.map((data) => {
+                            {blog.map((data, key) => {
+                                const urld = data.attributes.featuredimage.data.attributes.url;
                                 return (<React.Fragment>
-                                    <div className='col-lg-6'>
+                                    <div className='col-lg-4 mb-5' key={key}>
                                         <Link to={`/single-blog/${data.id}`} className='text-decoration-none'>
-
-                                            <BlogListBox blogimg={process.env.PUBLIC_URL + './images/blog/blog-img-1.jpg'} title={data.attributes.blogtitle} date={moment.utc(data.attributes.createdAt).format('LL')} readTime="6 min read" />
+                                            <BlogListBox blogimg={'http://localhost:1337' + urld} title={data.attributes.blogtitle} date={moment.utc(data.attributes.createdAt).format('LL')} readTime="6 min read" />
                                         </Link>
 
                                     </div>
@@ -69,27 +70,22 @@ export default function Blog() {
                             })}
                         </div>
                     </div>
-
-                    <div className='col-lg-4 blog-right-sec'>
-                        <InputBox />
-                    </div>
-
                 </div>
             </div>
 
         </div>
 
-        <div className='container'>
+        <div className='container blogs'>
             <section className='unlock-win'>
                 <div className='row'>
                     <div className='col-lg-12'>
                         <TitleAndDescription
-                            title="Ready to Unlock Performance today?"
-                            desc="Get 60 days free access to marketing sophistication."
+                            title="Follow Our Blog"
+                            desc="Enter your email address to follow this blog and receive notifications of new posts by email."
                         ></TitleAndDescription>
                     </div>
                     <div className='col-lg-8 mx-auto'>
-                        <UnlockWin button="Unlock Performance - For Free!" />
+                        <UnlockWin button="Subscribe" />
                     </div>
                 </div>
             </section>

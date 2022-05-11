@@ -9,7 +9,7 @@ export default function BlogListBox(props) {
                     <img src={props.blogimg} className='img-fluid' />
                 </div>
                 <div className='text-sec'>
-                    <p className='color-grey fz-17 fw-600 blog-date'><span><img className='me-2' src={process.env.PUBLIC_URL + './images/blog/cal-icon.svg'} /></span>{props.date}</p>
+                    <p className='color-grey fz-17 fw-600 blog-date'><span><img className='me-2' src={process.env.PUBLIC_URL + '../images/blog/cal-icon.svg'} /></span>{props.date}</p>
                     <p className='fz-19 fw-600 blog-title'>{props.title}</p>
                     <div className='d-flex justify-content-between'>
                         <div className='social-icon d-flex'>
@@ -24,7 +24,7 @@ export default function BlogListBox(props) {
                             </div>
                         </div>
                         <div className='read-time'>
-                            <p className='fz-17 fw-600 color-grey'><img src={process.env.PUBLIC_URL + './images/blog/clock.svg'} className='me-2 vertical-align-middle' />{props.readTime}</p>
+                            <p className='fz-17 fw-600 color-grey'><img src={process.env.PUBLIC_URL + '../images/blog/clock.svg'} className='me-2 vertical-align-middle' />{props.readTime}</p>
                         </div>
                     </div>
                 </div>

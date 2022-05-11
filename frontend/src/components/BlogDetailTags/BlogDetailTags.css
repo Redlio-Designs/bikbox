@@ -1,0 +1,11 @@
+.tag-box {
+    background: #F0F7FF;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.tag-box p {
+    color: #2682F5;
+
+}

@@ -7,10 +7,15 @@
 .blog-box .img-sec {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    height: 204px;
 }
 
 .blog-box .img-sec img {
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 100%;
 }
 
 .blog-box .text-sec {

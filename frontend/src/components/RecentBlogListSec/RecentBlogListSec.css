@@ -1,0 +1,16 @@
+.blog-list-view-sm {
+    margin-left: auto;
+}
+
+.blog-list-view-sm .img-sec {
+    width: 74px;
+    height: 74px;
+    margin-right: 15px;
+}
+
+.blog-list-view-sm .img-sec img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8.63px;
+}

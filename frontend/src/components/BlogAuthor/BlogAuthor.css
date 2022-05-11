@@ -1,0 +1,8 @@
+.blog-author-sec {
+    justify-content: space-between;
+}
+
+.blog-author-sec .img-sec {
+    margin-right: 10px;
+    align-self: center;
+}
