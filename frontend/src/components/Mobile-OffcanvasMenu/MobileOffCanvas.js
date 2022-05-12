@@ -1,7 +1,7 @@
-import React, {useState} from "react";
-import {Offcanvas, Button} from "react-bootstrap";
+import React, { useState } from "react";
+import { Offcanvas, Button } from "react-bootstrap";
 import './MobileOffCanvas.css'
-import {Link, useLocation} from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 
 export default function MobileOffCanvas() {
@@ -12,23 +12,23 @@ export default function MobileOffCanvas() {
 
 
     const location = useLocation();
-    const {pathname} = location;
+    const { pathname } = location;
     const splitLocation = pathname.split("/");
     console.log("splitLocation", pathname, splitLocation[0]);
 
     return (
         <>
             <div className="mobile-header-section d-flex justify-content-between align-items-center">
-                <Link to='/'>  <img src={process.env.PUBLIC_URL + './images/logo.png'} /></Link>
-                <img src={process.env.PUBLIC_URL + './images/home/humburger.svg'} onClick={handleShow} className='cursor-pointer' />
+                <Link to='/'>  <img src={process.env.PUBLIC_URL + '../images/logo.png'} /></Link>
+                <img src={process.env.PUBLIC_URL + '../images/home/humburger.svg'} onClick={handleShow} className='cursor-pointer' />
             </div>
             <Offcanvas show={show} onHide={handleClose} className="mobile-offcanvas">
                 <Offcanvas.Header>
-                    <Offcanvas.Title className="d-flex justify-content-between align-items-center w-100"> <Link to='/'> <img src={process.env.PUBLIC_URL + './images/white-logo.svg'} /></Link>
+                    <Offcanvas.Title className="d-flex justify-content-between align-items-center w-100"> <Link to='/'> <img src={process.env.PUBLIC_URL + '../images/white-logo.svg'} /></Link>
 
 
 
-                        <img src={process.env.PUBLIC_URL + './images/white-close-icon.svg'} onClick={handleClose} className='cursor-pointer' cursor-pointer />
+                        <img src={process.env.PUBLIC_URL + '../images/white-close-icon.svg'} onClick={handleClose} className='cursor-pointer' cursor-pointer />
 
 
 
@@ -43,7 +43,7 @@ export default function MobileOffCanvas() {
                         <li className="offcanvas-list-item"><Link to='/enterpriseLanding' className={pathname === '/enterpriseLanding' ? 'active text-decoration-none' : 'text-decoration-none'}>Enterprise</Link></li>
                         <li className="offcanvas-list-item"><Link to='/' className={' text-decoration-none'}>Creative Reporting</Link></li>
                     </ul>
-                    <img src={process.env.PUBLIC_URL + './images/home/linkedin-white.svg'} className="linkedin-img-offcavvas" />
+                    <img src={process.env.PUBLIC_URL + '../images/home/linkedin-white.svg'} className="linkedin-img-offcavvas" />
                     <div className="offcanvas-theme-btn w-100">
 
                         <button className="btn btn-theme">Book a Demo</button>

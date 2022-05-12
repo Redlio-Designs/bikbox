@@ -60,7 +60,7 @@ export default function Blog() {
                             {blog.map((data, key) => {
                                 const urld = data.attributes.featuredimage.data.attributes.url;
                                 return (<React.Fragment>
-                                    <div className='col-lg-4 mb-5' key={key}>
+                                    <div className='col-lg-4 col-md-6 mb-5' key={key}>
                                         <Link to={`/single-blog/${data.id}`} className='text-decoration-none'>
                                             <BlogListBox blogimg={'http://localhost:1337' + urld} title={data.attributes.blogtitle} date={moment.utc(data.attributes.createdAt).format('LL')} readTime="6 min read" />
                                         </Link>

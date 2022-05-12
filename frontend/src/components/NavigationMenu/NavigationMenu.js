@@ -22,7 +22,7 @@ export default function NavigationMenu() {
                                 <img src={process.env.PUBLIC_URL + '../images/logo.png'} />
                             </Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"><img src={process.env.PUBLIC_URL + './images/home/humburger.svg'} /></span>
+                                <span className="navbar-toggler-icon"><img src={process.env.PUBLIC_URL + '../images/home/humburger.svg'} /></span>
                             </button>
 
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,7 +34,7 @@ export default function NavigationMenu() {
                                         <ul className="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><Link to='/creativeTesting' className='dropdown-item'>
                                                 <div className='d-flex pb-3'>
-                                                    <img src={process.env.PUBLIC_URL + './images/creative-testing-icon.png'} className='me-3 align-self-center' />
+                                                    <img src={process.env.PUBLIC_URL + '../images/creative-testing-icon.png'} className='me-3 align-self-center' />
                                                     <div className='align-self-center'>
                                                         <p className='fz-15 fw-600'>Creative Testing</p>
                                                         <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -44,7 +44,7 @@ export default function NavigationMenu() {
                                             </li>
                                             <li><Link to='/performanceAudit' className='dropdown-item'>
                                                 <div className='d-flex pb-3'>
-                                                    <img src={process.env.PUBLIC_URL + './images/perfomance-audit-icon.png'} className='me-3 align-self-center' />
+                                                    <img src={process.env.PUBLIC_URL + '../images/perfomance-audit-icon.png'} className='me-3 align-self-center' />
                                                     <div className='align-self-center'>
                                                         <p className='fz-15 fw-600'>Performance Audit</p>
                                                         <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -54,7 +54,7 @@ export default function NavigationMenu() {
                                             </li>
                                             <li><Link to='/skan' className='dropdown-item'>
                                                 <div className='d-flex pb-3'>
-                                                    <img src={process.env.PUBLIC_URL + './images/skan-icon.png'} className='me-3 align-self-center' />
+                                                    <img src={process.env.PUBLIC_URL + '../images/skan-icon.png'} className='me-3 align-self-center' />
                                                     <div className='align-self-center'>
                                                         <p className='fz-15 fw-600'>Skan</p>
                                                         <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -63,7 +63,7 @@ export default function NavigationMenu() {
                                             </li>
                                             <li><Link to='/enterpriseLanding' className='dropdown-item'>
                                                 <div className='d-flex pb-3'>
-                                                    <img src={process.env.PUBLIC_URL + './images/enterprise-icon.png'} className='me-3 align-self-center' />
+                                                    <img src={process.env.PUBLIC_URL + '../images/enterprise-icon.png'} className='me-3 align-self-center' />
                                                     <div className='align-self-center'>
                                                         <p className='fz-15 fw-600'>Enterprise Landing</p>
                                                         <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

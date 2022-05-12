@@ -425,7 +425,34 @@ ul {
         font-size: 30px;
     }
 
+    .fz-19 {
+        font-size: 16px;
+    }
 
+    .fz-17 {
+        font-size: 14px;
+    }
+
+    .blog-box .text-sec {
+        padding: 20px;
+    }
+
+
+    .blog-content {
+        padding: 45px;
+    }
+
+    .fz-38 {
+        font-size: 35px;
+    }
+
+    .fz-20 {
+        font-size: 18px;
+    }
+
+    .blog-detailed-content {
+        padding: 70px 0 0;
+    }
 
     .container {
         max-width: 90%;
@@ -684,5 +711,46 @@ ul {
 
     .casestudy-section .external-link {
         display: none;
+    }
+
+    .blog-dt.perfomance-audit {
+        height: auto;
+    }
+
+    .blog-header h1 {
+        font-size: 36px;
+    }
+
+    .blog-header {
+        padding: 40px 0 90px;
+        position: relative;
+    }
+
+    .blogs .btn.btn-primary {
+        width: 100%;
+    }
+
+    .blog-content {
+        padding: 20px;
+    }
+
+    .fz-38 {
+        font-size: 25px;
+    }
+
+    .blog-title {
+        padding-bottom: 20px;
+    }
+
+    .blog-authot-share-sec {
+        padding-bottom: 20px;
+    }
+
+    .blog-detailed-content {
+        padding: 30px 0;
+    }
+
+    .blog-featured-img {
+        height: 290px;
     }
 }
