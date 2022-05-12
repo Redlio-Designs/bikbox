@@ -12,7 +12,11 @@
     padding-bottom: 24px;
 }
 
-.perfomance-marketing p {
+.sub-desc {
+    color: #333B4B;
+}
+
+.perfomance-marketing .desc {
     line-height: 1.5;
     padding-right: 48px;
     padding-bottom: 45px;

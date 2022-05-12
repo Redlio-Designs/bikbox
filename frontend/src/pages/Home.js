@@ -97,7 +97,7 @@ export default function Home() {
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <IconBoxWithImage path={process.env.PUBLIC_URL + '/images/home/ic_marketing_statistics.png'} />
-                            <SemiTitleWithDescription title="In-Depth Performance Audit" desc="Analyze historical data, find opportunities for improvement, and increase your marketing spend efficiency by 50%." />
+                            <SemiTitleWithDescription title="In-Depth Performance Audit" desc="Increase your marketing spend efficiency by 50%! Analyze historical data, identify low-hanging ROAS opportunities and generate a data-driven campaign plan." />
                             <ThemeButton text="Learn more" />
                         </div>
                     </div>
@@ -108,7 +108,7 @@ export default function Home() {
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center'>
                             <IconBoxWithImage path={process.env.PUBLIC_URL + '/images/home/monitoring-icon.png'} />
-                            <SemiTitleWithDescription title="24/7 Monitoring" desc="Detect optimization opportunities and issues as they arise. Our 24/7 monitoring drastically reduces the risk to your marketing campaigns." />
+                            <SemiTitleWithDescription title="24/7 Monitoring" desc="Monitor CPI, CPM, signals, and rising costs across demographics and geographies. If there is a change in trend within your campaigns or ads, BLKBOX assistant will notify you proactively!" />
                             <ThemeButton text="Learn more" />
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-6 align-self-center' >
@@ -125,7 +125,7 @@ export default function Home() {
                             <TitleAndDescription
 
                                 title="A True Marketing Platform for Everyone"
-                                desc="BLKBOX’s superior campaign structure and advanced analytics drives your business performance at scale."
+                                desc="BLKBOX was built by ex-Facebook specialists, for executives, marketing experts and Agencies! "
                             ></TitleAndDescription>
                         </div>
                         <div className='col-lg-4'>

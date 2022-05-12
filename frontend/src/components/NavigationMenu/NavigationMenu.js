@@ -32,11 +32,45 @@ export default function NavigationMenu() {
                                             Products
                                         </a>
                                         <ul className="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><Link to='/creativeTesting' className='dropdown-item'> Creative Testing</Link></li>
-                                            <li><Link to='/performanceAudit' className='dropdown-item'>Perfomance Audit</Link></li>
-                                            <li><Link to='/skan' className='dropdown-item'>Skan</Link></li>
-                                            <li><Link to='/enterpriseLanding' className='dropdown-item'>Enterprise Landing</Link></li>
-                                            <li><Link to='/blog' className='dropdown-item'>Blog</Link></li>
+                                            <li><Link to='/creativeTesting' className='dropdown-item'>
+                                                <div className='d-flex pb-3'>
+                                                    <img src={process.env.PUBLIC_URL + './images/creative-testing-icon.png'} className='me-3 align-self-center' />
+                                                    <div className='align-self-center'>
+                                                        <p className='fz-15 fw-600'>Creative Testing</p>
+                                                        <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                            </li>
+                                            <li><Link to='/performanceAudit' className='dropdown-item'>
+                                                <div className='d-flex pb-3'>
+                                                    <img src={process.env.PUBLIC_URL + './images/perfomance-audit-icon.png'} className='me-3 align-self-center' />
+                                                    <div className='align-self-center'>
+                                                        <p className='fz-15 fw-600'>Performance Audit</p>
+                                                        <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                            </li>
+                                            <li><Link to='/skan' className='dropdown-item'>
+                                                <div className='d-flex pb-3'>
+                                                    <img src={process.env.PUBLIC_URL + './images/skan-icon.png'} className='me-3 align-self-center' />
+                                                    <div className='align-self-center'>
+                                                        <p className='fz-15 fw-600'>Skan</p>
+                                                        <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                    </div>
+                                                </div></Link>
+                                            </li>
+                                            <li><Link to='/enterpriseLanding' className='dropdown-item'>
+                                                <div className='d-flex pb-3'>
+                                                    <img src={process.env.PUBLIC_URL + './images/enterprise-icon.png'} className='me-3 align-self-center' />
+                                                    <div className='align-self-center'>
+                                                        <p className='fz-15 fw-600'>Enterprise Landing</p>
+                                                        <p className='fz-12 fw-500 color-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>

@@ -21,7 +21,7 @@ export default function RecentBlogListSec() {
     console.log(blog)
     return (
         <>
-            {blog.map((data, key) => {
+            {blog.slice(0, 3).map((data, key) => {
                 const urld = data.attributes.featuredimage.data.attributes.url;
                 return (<React.Fragment>
                     <div className='col-lg-4 mb-5' key={key}>
